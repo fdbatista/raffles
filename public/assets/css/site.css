@@ -1,0 +1,14 @@
+.fa-btn {
+    margin-right: 6px;
+}
+
+.flag {
+    width: 24px;
+    height: auto;
+    margin-top: -2px;
+}
+
+.label-text {
+    text-transform: none!important;
+    color: #000!important;
+}

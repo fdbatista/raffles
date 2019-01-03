@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Summernote</title>
+  <link rel="stylesheet" href="dist/bootstrap.min.css" />
+  <script src="dist/jquery.min.js"></script> 
+  <script src="dist/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="dist/summernote.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="col-lg-12">
+			<div id="summernote">
+				<p>Hello Summernote</p>
+			</div>
+		</div>
+	</div>
+  
+  <script src="dist/summernote.min.js"></script>
+  <script src="dist/lang/summernote-es-ES.min.js"></script>
+  <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+			height: 150,
+			minHeight: 150,
+			maxHeight: 150,
+			focus: true,
+			lang: 'es-ES',
+			airMode: false
+		});
+    });
+  </script>
+</body>
+</html>

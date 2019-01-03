@@ -1,0 +1,7 @@
+.clock {
+    zoom: 0.35;
+    -ms-transform: scale(.35); /* IE 9 */
+    -webkit-transform: scale(.35); /* Safari and Chrome */
+    -o-transform: scale(.35); /* Opera */
+    -moz-transform: scale(.35); /* Firefox */
+}
